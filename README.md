@@ -11,7 +11,7 @@
 <br/>
 
 ### :link:배포주소
-> <https://hyelin213.github.io/HYLN-PortfolioSite/>
+> <https://hyelin213.github.io/HYLN-PortfolioSite-PB/>
 
 ### :watch:개발기간
 > 1인 제작<br/>
