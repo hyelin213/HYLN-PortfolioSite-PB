@@ -26,7 +26,7 @@ export default function ProjectSingleSecond() {
                 viewName='portfolio_site'
                 contents={contents}
                 githubLink='https://github.com/hyelin213/HYLN-PortfolioSite.git'
-                demoLink='https://hyelin213.github.io/HYLN-PortfolioSite/'
+                demoLink='https://hyelin213.github.io/HYLN-PortfolioSite-PB/'
                 language={['HTML5', 'CSS3', 'REACT']}
                 slide={projectView}
             />
