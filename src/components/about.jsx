@@ -18,7 +18,7 @@ export default function About() {
     const [clicked, setClicked] = useState(false);
     const { darkMode, toggleDarkMode } = useDarkMode();
 
-    const keywords = ['신입', 'FE', '성장하는', '도전적인', '탐구심'];
+    const keywords = ['신입', '디자인', '퍼블리싱', '도전적인', '탐구심'];
 
     function handleClick() {
         setClicked(true);
@@ -59,7 +59,7 @@ export default function About() {
                                     */}
                                 </div>
                                 <div className="introduction">
-                                    <p>Front-end 개발자로 성장하는 <br className="PC-exposure" />김혜린입니다.</p>
+                                    <p>웹 디자이너 & 퍼블리셔로<br className="PC-exposure" />성장하는 김혜린입니다.</p>
                                 </div>
                                 <div className="keywords">
                                     {keywords.map(item => (<p style={{ color: darkMode ? 'var(--black-color)' : '' }}>{item}</p>))}
@@ -101,7 +101,7 @@ export default function About() {
                                 <SwiperSlide className="title-3-aspi">
                                     <div className="title-3-container">
                                         <h3 className="if-title">if</h3>
-                                        <p className="if-branch-text">became a<br />front-end developer</p>
+                                        <p className="if-branch-text">became a<br />Web Designer·Publisher</p>
                                     </div>
                                     <div className="parentheses">
                                         <span className="left">{'('}</span>
@@ -134,11 +134,11 @@ export default function About() {
                             >
                                 <SwiperSlide className="content-1-info">
                                     <div className="content-1-container">
-                                        <h3>디자인에서<br />프론트엔드 개발까지.</h3>
+                                        <h3>순수예술에서<br />디자이너가 되기까지.</h3>
                                         <p>
                                             서양화과를 졸업하고 디자인을 배웠습니다.<br />
                                             웹 UI를 디자인하면서 ‘이런 기능은 어떻게 만들까?’<br />
-                                            라는 호기심에서 시작해 프론트엔드 개발 영역까지<br />
+                                            라는 호기심에서 시작해 웹 퍼블리싱 영역까지<br />
                                             역량을 넓혀가고 있습니다.<br /><br />
 
                                             함께하는 동료와 사용자들에게 편리함을 제공할 수<br />
@@ -180,7 +180,7 @@ export default function About() {
                                             더하여 만족스러운 결과물을 내는 사람이 되고 싶습니다.<br /><br />
 
                                             저는 새로운 것을 배우는 것에 흥미를 느낍니다.<br />
-                                            프론트엔드 과정의 수업을 들을 때도 배우고자 하는<br />
+                                            디자인 개발 과정의 수업을 들을 때도 배우고자 하는<br />
                                             성실한 자세로 임하여 우수한 성적으로 수료했습니다.<br /><br />
 
                                             아직은 부족하지만 끊임 없이 배우고 노력하여<br />
