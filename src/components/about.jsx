@@ -148,8 +148,8 @@ export default function About() {
                                 </SwiperSlide>
                                 <SwiperSlide className="content-2-skill">
                                     <div className="content-2-container">
-                                        <div className="FE-skill">
-                                            <h3>FE Skills</h3>
+                                        <div className="DV-skill">
+                                            <h3>Develop Skills</h3>
                                             <div className="icon">
                                                 <img src={`${url}/images/skill_icon/html_5.png`} alt="html_5.icon" />
                                                 <img src={`${url}/images/skill_icon/css_3.png`} alt="css_3.icon" />
@@ -159,7 +159,7 @@ export default function About() {
                                             </div>
                                         </div>
                                         <div className="tool-skill">
-                                            <h3>Tools Skills</h3>
+                                            <h3>Tool Skills</h3>
                                             <div className="icon">
                                                 <img src={`${url}/images/skill_icon/github_color.png`} alt="github_color.icon" />
                                                 <img src={`${url}/images/skill_icon/figma.png`} alt="figma.icon" />
