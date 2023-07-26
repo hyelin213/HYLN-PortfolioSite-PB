@@ -9,7 +9,7 @@ export default function ProjectDetailAbout({contents, githubLink, demoLink, lang
                     <h3>About</h3>
                     <p dangerouslySetInnerHTML={{ __html: contents }}></p>
                     <div className="language-used">
-                        {language.map(item => <span>{item}</span>)}
+                        {language.map(item => <span key={item}>{item}</span>)}
                     </div>
                 </div>
                 <div className="detail-about-right-bottom">

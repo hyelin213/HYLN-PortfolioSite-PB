@@ -14,7 +14,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 export default function ProjectContents() {
 
-    const [path, setPath] = useState('/HYLN-PortfolioSite');
+    const [path, setPath] = useState('/HYLN-PortfolioSite-PB');
     const location = useLocation();
 
     let slideDirection = 'right';

@@ -51,7 +51,7 @@ export default function ProjectDetailFrame
                             </div>
                             <button onClick={() => { navigate(-1) }}>
                                 <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17.1388 1L0 18L17.1388 35M48 18H0.48" stroke="#F97904" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M17.1388 1L0 18L17.1388 35M48 18H0.48" stroke="#F97904" strokeWidth="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </button>
                         </div>
@@ -79,7 +79,7 @@ export default function ProjectDetailFrame
                             {
                                 slide.map((item, idx) => (
                                     <SwiperSlide>
-                                        <div className={`project-pic project-pic-${idx+1}`}>
+                                        <div key={item} className={`project-pic project-pic-${idx+1}`}>
                                             <img src={`${url}/images/project_contents/${viewName}/${item}.png`} alt={`프로젝트 이미지${idx+1}`} />
                                         </div>
                                     </SwiperSlide>

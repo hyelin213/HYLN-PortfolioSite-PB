@@ -59,20 +59,20 @@ export default function About() {
                                     */}
                                 </div>
                                 <div className="introduction">
-                                    <p>웹 디자이너 & 퍼블리셔로<br className="PC-exposure" />성장하는 김혜린입니다.</p>
+                                    <p>웹 디자이너 & 퍼블리셔로 <br className="PC-exposure" />성장하는 김혜린입니다.</p>
                                 </div>
                                 <div className="keywords">
-                                    {keywords.map(item => (<p style={{ color: darkMode ? 'var(--black-color)' : '' }}>{item}</p>))}
+                                    {keywords.map(item => (<p key={item} style={{ color: darkMode ? 'var(--black-color)' : '' }}>{item}</p>))}
                                 </div>
                             </div>
                             <div className="swiper-navigation mobile-hide">
                                 <div className="navi-btn">
                                     <svg className="prev" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7.07 1L1 7.07L7.07 13.14M18 7.07H1.17" stroke="#E17B35" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.07 1L1 7.07L7.07 13.14M18 7.07H1.17" stroke="#E17B35" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                     <div className="page-number page-number1"></div>
                                     <svg className="next" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.93 1L18 7.07L11.93 13.14M1 7.07H17.83" stroke="#E17B35" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11.93 1L18 7.07L11.93 13.14M1 7.07H17.83" stroke="#E17B35" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                             </div>
@@ -204,11 +204,11 @@ export default function About() {
                             <div className="swiper-navigation mobile-exposure">
                                 <div className="navi-btn">
                                     <svg className="prev" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7.07 1L1 7.07L7.07 13.14M18 7.07H1.17" stroke="#E17B35" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.07 1L1 7.07L7.07 13.14M18 7.07H1.17" stroke="#E17B35" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                     <div className="page-number page-number2"></div>
                                     <svg className="next" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.93 1L18 7.07L11.93 13.14M1 7.07H17.83" stroke="#E17B35" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11.93 1L18 7.07L11.93 13.14M1 7.07H17.83" stroke="#E17B35" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                             </div>

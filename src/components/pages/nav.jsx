@@ -15,7 +15,7 @@ export default function Nav() {
             <nav>
                 <ul>
                     {list.map((item, idx) => (
-                        <li className={`title title-${idx+1}`}>
+                        <li key={item.title} className={`title title-${idx+1}`}>
                             <Link to={item.link}>{item.title}</Link>
                         </li>
                     ))}
